@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  tgalertbot:
+    image: sp595s/tgalertbot
+    restart: unless-stopped
+    environment:
+      APIID: "YouAppId"
+      APIHASH: "YouApiHash"
+      BOT_TOKEN: "YouBotToken"
