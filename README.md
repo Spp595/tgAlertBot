@@ -25,6 +25,7 @@ services:
       APIHASH: "YouApiHash"
       BOT_TOKEN: "YouBotToken"
 ```
+[Docker Hub](https://hub.docker.com/r/sp595s/tgalertbot)
 
 ## Environment variables
 `BOT_TOKEN:` bot token obtained from @BotFather
@@ -45,3 +46,4 @@ docker build --rm --tag tgalertbot:latest .
 
 docker run -e BOT_TOKEN="YouBotToken" -e APIID="YouAppId" -e APIHASH="YouApiHash" tgalertbot
 ```
+[Docker Hub](https://hub.docker.com/r/sp595s/tgalertbot)
