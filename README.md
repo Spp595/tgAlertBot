@@ -46,4 +46,3 @@ docker build --rm --tag tgalertbot:latest .
 
 docker run -e BOT_TOKEN="YouBotToken" -e APIID="YouAppId" -e APIHASH="YouApiHash" tgalertbot
 ```
-[Docker Hub](https://hub.docker.com/r/sp595s/tgalertbot)
